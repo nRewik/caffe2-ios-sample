@@ -8,3 +8,6 @@ cd ./caffe2-ios-sample
 
 # Instruction
 Run Xcode project on real device. Simulator will not work.
+
+# Screenshot
+<img src="http://i.imgur.com/8dcLmKE.png" align="left" width="300" >
