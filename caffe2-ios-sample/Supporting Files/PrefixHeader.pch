@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  caffe2-ios-sample
+//
+//  Created by Nutchaphon Rewik on 09/05/2017.
+//  Copyright © 2017 FuseCore. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#ifdef __cplusplus
+
+// Use -Wdocumentation to suppress opencv2 document warnings
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdocumentation"
+#import <opencv2/opencv.hpp>
+#pragma clang diagnostic pop
+
+#endif
